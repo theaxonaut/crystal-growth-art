@@ -1,5 +1,11 @@
 # 🔮 All-RGB Crystal Growth
 
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+![Images](https://img.shields.io/badge/Images-CC%20BY%204.0-lightgrey?style=flat)
+![Colab](https://img.shields.io/badge/Run%20in-Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
+![allRGB](https://img.shields.io/badge/allRGB-16.7M%20colors-ff69b4?style=flat)
+
 > *Every pixel a different color. 16,777,216 of them. Growing like a crystal from a single seed.*
 
 A Python art project that generates a **4096×4096 image containing every possible 8-bit RGB color exactly once** — no color repeated, none missing. The colors are placed using a crystal growth algorithm that makes the image look like a living nebula or a starburst explosion rather than random noise.
@@ -134,12 +140,13 @@ NEBULA_CONTRAST = 3.0   # edge crispness (1 = soft fog, 6 = harsh)
 | File | Description |
 |---|---|
 | `crystal_with_nebula.py` | Main script — organic, rays, and nebula modes |
+| `examples/` | Sample outputs at 2048×2048 |
 
 ---
 
 ## 📄 License
 
-MIT — do whatever you want with it. If you make something cool, share it.
+Code is MIT licensed. Generated images are released under CC BY 4.0 — use them freely, just credit the repo.
 
 ---
 
